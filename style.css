@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 17, 2018, 3:22:05 PM
+    Author     : student
+*/
+p {font-size:10px !important;}
+.paragraf {font-size: 20px;}
+#para {font-size: 30px ;}
+*{margin:0px;
+padding:0px;}
+div p {color:red;}  /* 4 paragrafy czerwone, bo jedna rodzina*/
+div>p{color:blue;} /* 3 paragrafy niebieskie, bo rodzic dziecko*/
+p+p{color:green;} /* 2 i 3 paragrafy zielone, bo elementy po p w rodzic dziecko*/
+/*p~p{color:yellow;}*/ 
+div p {color:black;}
+p[class]{color:red;}
+p[class="para1"]{color:blue;}
+li:first-child{color:red;} /* pseudoklasy*/
+a:hover{color:red}
