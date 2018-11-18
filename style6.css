@@ -1,0 +1,40 @@
+.boks{width:600px;
+      height: 600px;
+      background-color:palegreen;
+      background-image: url("../img/obraz.jpg");
+      background-repeat:no-repeat;
+      background-attachment: scroll;
+      background-position: 50% 50%;
+}
+
+/* .boks{background: black url("../img/obraz.jpg") no-repeat scroll left top; } */
+
+p{letter-spacing: -2px;
+  line-height: 20px;
+  text-indent: 20px;
+  text-transform: uppercase;
+}
+p>span{vertical-align: sub;
+       text-decoration-line: line-through;
+       }
+p{white-space: nowrap;
+word-spacing: 20px;
+font-family:  serif;
+font-size: 14px;
+font-style:  italic;
+font-weight: bold;
+}
+
+/* p{border: 2px solid red} */
+
+div.boks{border-width: 2px;
+border-style:dashed; /*  solid none solid dashed double */
+border-color:red;
+margin-top: 10px;
+margin-right: 20px;
+margin-bottom: 30px;
+margin-left: 40px;
+margin: 0 auto;
+padding: 10px;} /*  smargin: 10px, 20px, 30px, 40px */
+
+
