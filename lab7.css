@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 1, 2018, 2:26:18 PM
+    Author     : student
+*/
+
+* {margin: 0px;
+   padding: 0px;
+    
+}
+
+div.pierwszy{ width: 400px;
+              height: 400px;
+              background-color: rgba(255,255,0,0.5);
+              display: block;
+              overflow-x: scroll;
+              overflow-y: scroll;
+              opacity: 1;
+             float: left;
+               margin: 10px;
+    
+}
+
+div.drugi{ width: 400px;
+              height: 400px;
+              background-color: green;
+              display: block;
+              visibility: visible;
+             float: left;
+             margin: 10px;
+             clear: left; 
+    
+}
+
+div.trzeci{ width: 400px;
+              height: 400px;
+              background-color: blue;
+              display: block;
+              float: left;
+               margin: 10px;
+}
+div.czwarty { width: 100px;
+       height: 100px;
+       background-color: red;
+       
+    
+}
+#div11 { width: 100px;
+       height: 100px;
+       background-color: red;
+       
+}
+
+
+#div12 { width: 100px;
+       height: 100px;
+       background-color: green;
+       
+    
+}
+/*
+#div0 { width: 500px;
+       height: 500px;
+       background-color: indianred;
+         
+       padding: 20px;
+     
+}
+*/
+
+p.p1{ width: 400px;
+      height: 400px;
+    border-style: solid;
+    border-color: coral;
+    float: left;
+    margin: 10px;
+}
+
+p.p2 {
+    width: 400px;
+      height: 400px;
+    border-style: solid;
+    border-color: deeppink;
+    float: right;
+    clear: right;
+    margin: 10px; 
+}
+
+p.p3 {
+    width: 1000px;
+      height: 600 px;
+    border-style: solid;
+    float: left;
+    clear: left; 
+    margin: 10px;
+}
+
+p.p4 {
+    width: 400px;
+      height: 400px;
+    border-style: solid;
+    float: left;
+    clear: left; 
+    margin: 10px;
+}
+
+p.p5 {
+    width: 400px;
+      height: 400px;
+     border-style: solid;
+    float: right;
+   
+    margin: 10px;
+}
