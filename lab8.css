@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2018, 4:59:35 PM
+    Author     : student
+*/
+*{
+    margin: 0 auto;
+    padding: 10px;
+}
+.header1 { 
+ 
+    background-color:  wheat;
+ 
+          
+}
+aside {
+    width: 200px;
+    height:400px;
+    float:right;
+    clear: left;
+    border:coral ;
+}
+
+nav {
+    float:left;
+    clear: left;
+    background-color: ivory;
+}
+
+article {
+    width: 800px;
+    height: 400px;
+    border-style: dashed;
+    float: left;
+    clear: left;
+    margin-left: 50px;
+    
+    
+}
+
+.stopka2 {
+
+    float: left;
+    clear: left;
+    clear: left;
+    background-color: wheat;
+    width: 1200px;
+    margin-top: 5px;
+}
+
