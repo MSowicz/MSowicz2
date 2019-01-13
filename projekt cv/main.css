@@ -1,0 +1,41 @@
+
+body {background-color: silver;}
+div { margin: 0 auto;
+    max-width: 1200px;
+    background-color: white;
+    padding: 5px;
+    
+}
+
+.profile-photo {
+    width:250px;
+    height:300px;
+    float: top right;
+}
+.hobby-photo { width: 300px;
+    height: 225px;
+    padding: 10px;
+
+}
+
+h1 {
+    color: royalblue
+}
+
+h3 {
+    background-color: royalblue;
+    padding: 10px;
+    color: white;
+}
+table { 
+    border-collapse: collapse;
+}
+
+footer{background-color: royalblue;
+padding: 0px}
+
+
+.rok {
+    float: right;
+}
+
