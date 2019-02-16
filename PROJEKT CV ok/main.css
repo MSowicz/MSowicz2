@@ -1,0 +1,183 @@
+
+body {background-color: silver;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.page { margin: 0 auto;
+    max-width: 1200px;
+    background-color: white;
+}
+header{
+    padding: 20px;
+}
+
+.header-text {
+color: #2582ee;
+font-size: 80px;
+text-align: center;
+}
+nav {
+  text-align: center;
+}
+article {
+  padding:15px;
+  
+}
+
+/* nagłówki kategorii */
+h3 {
+  background-color: #2582ee;
+  padding: 10px;
+  color: white;
+  float: top;
+  font-size: 25px;
+}
+
+.ab{
+    display: block;
+}
+
+.profile-photo {
+    
+    width:200px;
+    height:250px;
+   
+    
+}
+.AboutTxt{
+    font-size: 30px;
+    }
+
+/* wyrównanie tekst zdjęcie */
+.ab h1 {
+  float: left;
+}
+
+.ab span {
+  float: left;
+}
+/* dlaczego nie działa 
+.ab img {
+  float: right;
+}
+*/
+
+
+a {
+    text-decoration: none;   
+ font-size: 20px;
+ padding: 5px;
+ 
+    
+}
+a:hover{
+    background-color: #75b5f4;
+    
+}
+/* znacznik do zdjęć */
+.ho a:hover{
+  background-color: unset;
+}
+a:visited {
+    color: black;
+}
+
+
+.hobby-photo { width: 230px;
+    height: 190px;
+    padding: 10px;
+
+
+}
+
+.hobby-photo:hover{
+    opacity: 0.70;
+}
+
+
+
+/* Szkola i kariera */
+.rok {
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+    color: rgba(0, 0,0, 0.5);
+}
+
+.univer, .work {
+    font-size: 20px;
+}
+.uniSpan {
+    font-weight: bold;
+    font-size: 20px
+}
+
+
+
+.rok {
+    float: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    color: 
+}
+
+.univer, .work {
+    font-size: 20px;
+}
+.uniSpan {
+    font-weight: bold;
+    }
+/* koniec szkoly i kariery */
+
+    table { 
+      border-collapse: collapse;
+     font-size: 20px;
+  }
+
+.gallery{
+text-align: center;
+}
+
+
+
+.Form label, .Form p {
+  font-size: 20px;
+}
+
+.Form p {
+  font-weight: bold;
+}
+
+.Form input{
+  margin-bottom: 10px;
+  width: 150px;
+  height: 25px;
+  margin-left: 10px;
+}
+
+.Form .sub {
+font-size: 20px;
+width: 150px;
+height: 40px;
+}
+
+.opis{
+  width: 150px;
+  height: 50px;
+}
+
+/* przenosi na góre strony */
+.back{
+  float: right;
+}
+  
+footer{
+  background-color: #2582ee;
+  color: white;
+font-style: italic;
+position: relative;
+}
+
+footer p {
+  padding: 10px;
+}
